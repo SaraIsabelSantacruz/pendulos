@@ -40,7 +40,7 @@ function mousePressed(event) {
     pendulos.push({ pendulo, oscilador, osc });
   }
 
-  if(cont >= 40) {
+  if(cont >= 20) {
     empezar = false;
     const contenedor = document.getElementById('contenedor');
     const elemento = document.getElementById('texto');
