@@ -30,7 +30,7 @@ class Oscilador {
 				this.velocidad += this.aceleracion;
 				this.velocidad *= this.friccion;
 				this.angulo += this.velocidad;
-				let amp = map(sinAng, -0.98, 0.98, -0.2, 0.2, true);
+				let amp = map(sinAng, -0.98, 0.98, -0.1, 0.1, true);
 				let pan = map(sinAng, -0.98, 0.98, 1, -1, true);
 				item.osc.amp(amp, 1);
 				item.osc.pan(pan, 1);
