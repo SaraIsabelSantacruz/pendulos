@@ -1,0 +1,31 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.texto-contenedor {
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.texto {
+  margin: 0;
+  color: #ccc5ba87;
+  transition: color 2s ease-in;
+}
+
+.desaparecer {
+  color: transparent;
+  transition: color 2s ease-out;
+  z-index: -5;
+}
+
+.esconder {
+  display: none;
+}
